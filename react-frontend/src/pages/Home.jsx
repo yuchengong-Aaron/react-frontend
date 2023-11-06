@@ -9,7 +9,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import SearchService from '../services/SearchService';
 import Loading from '../components/Loading';
 
-import Landing from '../images/recipe-website-landing-page.png';
+import Landing from '../images/landing-page.png';
 
 function Home() {
     const [query, setQuery] = useState("");
@@ -54,9 +54,9 @@ function Home() {
     }
 
     return (
-        <div className=' my-5 container' style={{"maxWidth": "70rem"}}>
+        <div className='my-5 container' style={{"maxWidth": "70rem"}}>
             <div className='home-landing text-center my-3'>
-                <img className='img-fluid' src={Landing} alt="The Recipe Bowl logo" />
+                <img className='img-fluid' src={Landing} alt="Recipe App Logo" style={{"maxWidth": "300px", "height": "auto"}}/>
             </div>
             <div className='mx-auto search-bar row gx-2 gy-3'>
                 <div className='col-md-2 col-sm-2 col-12 mx-auto'>

@@ -11,7 +11,7 @@ import Container from 'react-bootstrap/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCirclePlus, faHouse } from '@fortawesome/free-solid-svg-icons';
 
-import ExpandedLogo from '../images/recipe-website-expanded-logo.png';
+import ExpandedLogo from '../images/logo.png';
 
 function NavigationBar() {
 
@@ -45,7 +45,7 @@ function NavigationBar() {
             <Navbar className='py-3' sticky='top'>
                 <div className='container px-4'>
                     <Navbar.Brand> 
-                        <Link to='/' className='logo' > <img className='img-fluid' src={ExpandedLogo} alt="The Recipe Bowl logo" /> </Link>
+                        <Link to='/' className='logo' > <img className='img-fluid' src={ExpandedLogo} alt="Recipe App Logo" style={{"maxWidth": "50px", "height": "auto"}}/> </Link>
                     </Navbar.Brand>
 
                     <div className='align-items-end' >
