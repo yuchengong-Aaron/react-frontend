@@ -82,7 +82,7 @@ function Home() {
                     />
                 </div>
                 <div className='col-md-3 col-sm-3 text-center'>
-                    <button className='btn btn-primary' onClick={searchQuery}> <FontAwesomeIcon icon={faSearch} /> Search</button>
+                    <button className='btn btn-primary' onClick={searchQuery} style={{ backgroundColor: '#A59DFF' }}> <FontAwesomeIcon icon={faSearch} /> Search</button>
                 </div>
             </div>
             <hr />

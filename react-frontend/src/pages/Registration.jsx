@@ -171,7 +171,7 @@ function Registration() {
                         <p className="mt-4" >Already have an account? <a href="/login">Log in</a></p>
                         
                         <div>
-                            <button type="submit" className="btn btn-primary my-3">Register</button>
+                            <button type="submit" className="btn btn-primary my-3" style={{ backgroundColor: '#A59DFF' }}>Register</button>
                             { isSending && <span className='ms-3'>loading...</span> }
                         </div>
                         

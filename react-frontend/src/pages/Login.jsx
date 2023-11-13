@@ -112,7 +112,7 @@ function Login() {
                         <Alert show={show} variant="danger"> <p className='text-center my-auto'>{ loginError }</p> </Alert>
 
                         <div>
-                            <button type="submit" className="btn btn-primary my-3">Log In</button>
+                            <button type="submit" className="btn btn-primary my-3" style={{ backgroundColor: '#A59DFF' }}>Log In</button>
                             { isSending && <span className='ms-3'>loading...</span> }
                         </div>
                     </Form>
